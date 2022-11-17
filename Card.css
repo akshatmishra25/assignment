@@ -1,0 +1,39 @@
+.card {
+   overflow: hidden; 
+   box-shadow: 0 2px 20px clr-gray300;
+   border-radius: 1px;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   transition: transform 200ms ease-in;
+
+
+}
+
+.card_img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card_title {
+    padding: 1rem;
+
+}
+
+.card_description{
+    padding: 0 1rem;
+
+}
+
+.card-btn{
+   padding: 1rem; 
+   font-family: inherit;
+   font-weight: bold;
+   font-size: 1rem;
+   margin: 1rem;
+   border: 2px solid clr-primary;
+   background: transparent;
+   transition: 200ms ease-in, color 200ms ease-in;
+}
